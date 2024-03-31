@@ -91,9 +91,9 @@
             // 
             this.btncalcular.BackColor = System.Drawing.Color.Chocolate;
             this.btncalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncalcular.Location = new System.Drawing.Point(166, 276);
+            this.btncalcular.Location = new System.Drawing.Point(151, 264);
             this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(127, 28);
+            this.btncalcular.Size = new System.Drawing.Size(127, 43);
             this.btncalcular.TabIndex = 3;
             this.btncalcular.Text = "Calcular";
             this.btncalcular.UseVisualStyleBackColor = false;
@@ -103,9 +103,9 @@
             // 
             this.btnlimpiar.BackColor = System.Drawing.Color.SandyBrown;
             this.btnlimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlimpiar.Location = new System.Drawing.Point(284, 276);
+            this.btnlimpiar.Location = new System.Drawing.Point(284, 264);
             this.btnlimpiar.Name = "btnlimpiar";
-            this.btnlimpiar.Size = new System.Drawing.Size(127, 28);
+            this.btnlimpiar.Size = new System.Drawing.Size(127, 40);
             this.btnlimpiar.TabIndex = 4;
             this.btnlimpiar.Text = "Limpiar";
             this.btnlimpiar.UseVisualStyleBackColor = false;
@@ -291,7 +291,9 @@
             this.Controls.Add(this.lbla);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "Determinantes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Determinantes";
             this.Load += new System.EventHandler(this.Determinantes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
