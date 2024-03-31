@@ -49,5 +49,18 @@ namespace Proyecto_final
         {
 
         }
+
+        private void BtnCreditos_Click(object sender, EventArgs e)
+        {
+            Creditos frm_creditos=new Creditos();
+            this.Hide();
+            frm_creditos.ShowDialog();
+            this.Close ();
+        }
+
+        private void Principal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
