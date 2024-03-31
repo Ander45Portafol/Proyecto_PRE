@@ -51,11 +51,11 @@ namespace Proyecto_final
 
             s = Double.Parse(txts.Text);
 
-            Determinante = (a * c) - (b * d);
+            Determinante = (a * d) - (c * b);
 
-            Determinantex = (r * s) - (b * d);
+            Determinantex = (r * d) - (s * b);
 
-            Determinantey = (a * c) - (r * s);
+            Determinantey = (a * s) - (c * r);
 
             x = Math.Round((Determinantex / Determinante),2);
 
