@@ -65,5 +65,108 @@ namespace Proyecto_final
 
             txty.Text = y.ToString();
         }
+
+        private void txty_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtx_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblx_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbly_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txts_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbls_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtd_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbld_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblb_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Determinantes_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtb_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblr_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtr_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txta_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbla_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtc_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            Principal frm_Prin=new Principal();
+            this.Hide();
+            frm_Prin.ShowDialog();
+            this.Close();
+        }
     }
 }
