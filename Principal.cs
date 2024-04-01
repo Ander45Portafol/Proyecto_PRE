@@ -79,5 +79,13 @@ namespace Proyecto_final
             frm_cajero.ShowDialog();
             this.Close();
         }
+
+        private void BtnAngulos_Click(object sender, EventArgs e)
+        {
+            Angulos frm_angulo=new Angulos();
+            this.Hide();
+            frm_angulo.ShowDialog();
+            this.Close();
+        }
     }
 }

@@ -38,7 +38,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.BtnDeterminante = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnAngulos = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -56,7 +56,7 @@
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.BtnDeterminante);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.BtnAngulos);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -184,19 +184,20 @@
             this.BtnDeterminante.UseVisualStyleBackColor = false;
             this.BtnDeterminante.Click += new System.EventHandler(this.BtnDeterminante_Click);
             // 
-            // button1
+            // BtnAngulos
             // 
-            this.button1.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.button1.Location = new System.Drawing.Point(121, 23);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(256, 67);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Ángulos agudos";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BtnAngulos.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.BtnAngulos.FlatAppearance.BorderSize = 0;
+            this.BtnAngulos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAngulos.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAngulos.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.BtnAngulos.Location = new System.Drawing.Point(121, 23);
+            this.BtnAngulos.Name = "BtnAngulos";
+            this.BtnAngulos.Size = new System.Drawing.Size(256, 67);
+            this.BtnAngulos.TabIndex = 2;
+            this.BtnAngulos.Text = "Ángulos agudos";
+            this.BtnAngulos.UseVisualStyleBackColor = false;
+            this.BtnAngulos.Click += new System.EventHandler(this.BtnAngulos_Click);
             // 
             // label2
             // 
@@ -232,6 +233,7 @@
             this.ClientSize = new System.Drawing.Size(1547, 733);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menú";
@@ -246,7 +248,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnAngulos;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;

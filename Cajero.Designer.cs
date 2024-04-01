@@ -66,7 +66,7 @@
             // txta
             // 
             this.txta.Location = new System.Drawing.Point(219, 336);
-            this.txta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txta.Margin = new System.Windows.Forms.Padding(4);
             this.txta.Name = "txta";
             this.txta.Size = new System.Drawing.Size(335, 22);
             this.txta.TabIndex = 1;
@@ -87,9 +87,10 @@
             // Calcular
             // 
             this.Calcular.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.Calcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Calcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Calcular.Location = new System.Drawing.Point(155, 382);
-            this.Calcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Calcular.Margin = new System.Windows.Forms.Padding(4);
             this.Calcular.Name = "Calcular";
             this.Calcular.Size = new System.Drawing.Size(256, 67);
             this.Calcular.TabIndex = 3;
@@ -115,7 +116,7 @@
             // txtb
             // 
             this.txtb.Location = new System.Drawing.Point(1031, 303);
-            this.txtb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtb.Margin = new System.Windows.Forms.Padding(4);
             this.txtb.Name = "txtb";
             this.txtb.ReadOnly = true;
             this.txtb.Size = new System.Drawing.Size(124, 22);
@@ -124,7 +125,7 @@
             // txtd
             // 
             this.txtd.Location = new System.Drawing.Point(1031, 416);
-            this.txtd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtd.Margin = new System.Windows.Forms.Padding(4);
             this.txtd.Name = "txtd";
             this.txtd.ReadOnly = true;
             this.txtd.Size = new System.Drawing.Size(124, 22);
@@ -133,7 +134,7 @@
             // txtc
             // 
             this.txtc.Location = new System.Drawing.Point(1031, 362);
-            this.txtc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtc.Margin = new System.Windows.Forms.Padding(4);
             this.txtc.Name = "txtc";
             this.txtc.ReadOnly = true;
             this.txtc.Size = new System.Drawing.Size(124, 22);
@@ -142,7 +143,7 @@
             // txte
             // 
             this.txte.Location = new System.Drawing.Point(1031, 475);
-            this.txte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txte.Margin = new System.Windows.Forms.Padding(4);
             this.txte.Name = "txte";
             this.txte.ReadOnly = true;
             this.txte.Size = new System.Drawing.Size(124, 22);
@@ -151,7 +152,7 @@
             // txtf
             // 
             this.txtf.Location = new System.Drawing.Point(1031, 534);
-            this.txtf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtf.Margin = new System.Windows.Forms.Padding(4);
             this.txtf.Name = "txtf";
             this.txtf.ReadOnly = true;
             this.txtf.Size = new System.Drawing.Size(124, 22);
@@ -232,9 +233,10 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(449, 382);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(256, 67);
             this.button1.TabIndex = 17;
@@ -292,7 +294,7 @@
             this.Controls.Add(this.txta);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "cajero";
