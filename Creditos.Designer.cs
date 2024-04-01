@@ -121,7 +121,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(98, 391);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(257, 66);
+            this.label2.Size = new System.Drawing.Size(325, 163);
             this.label2.TabIndex = 3;
             this.label2.Text = "Jonathan Josué Marchelli Hernández";
             // 
@@ -214,7 +214,7 @@
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(822, 717);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(191, 66);
+            this.label7.Size = new System.Drawing.Size(313, 83);
             this.label7.TabIndex = 13;
             this.label7.Text = "Javier Enrique Monge Argueta";
             // 
@@ -234,6 +234,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1452, 799);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
             this.Name = "Creditos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Creditos";
