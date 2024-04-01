@@ -71,5 +71,13 @@ namespace Proyecto_final
                 this.Close();
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            cajero frm_cajero=new cajero();
+            this.Hide();
+            frm_cajero.ShowDialog();
+            this.Close();
+        }
     }
 }
