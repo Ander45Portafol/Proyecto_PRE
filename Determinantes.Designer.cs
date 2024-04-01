@@ -256,11 +256,14 @@
             // 
             // BtnVolver
             // 
-            this.BtnVolver.Location = new System.Drawing.Point(15, 18);
+            this.BtnVolver.Image = ((System.Drawing.Image)(resources.GetObject("BtnVolver.Image")));
+            this.BtnVolver.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnVolver.Location = new System.Drawing.Point(12, 12);
             this.BtnVolver.Name = "BtnVolver";
-            this.BtnVolver.Size = new System.Drawing.Size(121, 40);
-            this.BtnVolver.TabIndex = 20;
-            this.BtnVolver.Text = "Volver";
+            this.BtnVolver.Size = new System.Drawing.Size(124, 47);
+            this.BtnVolver.TabIndex = 30;
+            this.BtnVolver.Text = "Regresar";
+            this.BtnVolver.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnVolver.UseVisualStyleBackColor = true;
             this.BtnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
             // 
