@@ -62,5 +62,14 @@ namespace Proyecto_final
         {
 
         }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            DialogResult res=MessageBox.Show("¿Está seguro de salir del programa?","Salir",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+            if (res==DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
     }
 }
