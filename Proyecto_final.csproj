@@ -52,6 +52,11 @@
     </Compile>
     <Compile Include="Cajero.Designer.cs">
       <DependentUpon>Cajero.cs</DependentUpon>
+    <Compile Include="Creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creditos.Designer.cs">
+      <DependentUpon>Creditos.cs</DependentUpon>
     </Compile>
     <Compile Include="Determinantes.cs">
       <SubType>Form</SubType>
@@ -69,6 +74,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Cajero.resx">
       <DependentUpon>Cajero.cs</DependentUpon>
+    <EmbeddedResource Include="Creditos.resx">
+      <DependentUpon>Creditos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Determinantes.resx">
       <DependentUpon>Determinantes.cs</DependentUpon>
