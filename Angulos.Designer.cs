@@ -123,6 +123,7 @@
             // 
             this.r1.Location = new System.Drawing.Point(288, 463);
             this.r1.Name = "r1";
+            this.r1.ReadOnly = true;
             this.r1.Size = new System.Drawing.Size(172, 22);
             this.r1.TabIndex = 8;
             // 
@@ -141,6 +142,7 @@
             // 
             this.r2.Location = new System.Drawing.Point(288, 521);
             this.r2.Name = "r2";
+            this.r2.ReadOnly = true;
             this.r2.Size = new System.Drawing.Size(172, 22);
             this.r2.TabIndex = 10;
             // 
@@ -159,6 +161,7 @@
             // 
             this.r3.Location = new System.Drawing.Point(288, 575);
             this.r3.Name = "r3";
+            this.r3.ReadOnly = true;
             this.r3.Size = new System.Drawing.Size(172, 22);
             this.r3.TabIndex = 12;
             // 
