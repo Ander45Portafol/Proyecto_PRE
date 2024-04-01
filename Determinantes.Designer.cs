@@ -50,50 +50,51 @@
             this.txtx = new System.Windows.Forms.TextBox();
             this.txty = new System.Windows.Forms.TextBox();
             this.BtnVolver = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(163, 58);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Cornsilk;
+            this.label1.Location = new System.Drawing.Point(274, 131);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(757, 18);
+            this.label1.Size = new System.Drawing.Size(971, 26);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Escriba un programa que resuelva el determinante de un sistema de ecuaciones con " +
-    "dos incógnitas\r\n";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Text = "Programa que resuelte los determinantes de un sistema de ecuaciones con dos incog" +
+    "nitas\r\n";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(166, 94);
+            this.pictureBox1.Location = new System.Drawing.Point(38, 212);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(218, 133);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.Size = new System.Drawing.Size(326, 285);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // lbla
             // 
             this.lbla.AutoSize = true;
-            this.lbla.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbla.Location = new System.Drawing.Point(476, 96);
+            this.lbla.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbla.ForeColor = System.Drawing.Color.Cornsilk;
+            this.lbla.Location = new System.Drawing.Point(401, 192);
             this.lbla.Name = "lbla";
-            this.lbla.Size = new System.Drawing.Size(201, 18);
+            this.lbla.Size = new System.Drawing.Size(300, 26);
             this.lbla.TabIndex = 2;
             this.lbla.Text = "Asignar valor al coeficiente\"a\"";
-            this.lbla.Click += new System.EventHandler(this.lbla_Click);
             // 
             // btncalcular
             // 
-            this.btncalcular.BackColor = System.Drawing.Color.Chocolate;
-            this.btncalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncalcular.Location = new System.Drawing.Point(151, 264);
+            this.btncalcular.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btncalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncalcular.Location = new System.Drawing.Point(1209, 256);
             this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(127, 43);
+            this.btncalcular.Size = new System.Drawing.Size(256, 67);
             this.btncalcular.TabIndex = 3;
             this.btncalcular.Text = "Calcular";
             this.btncalcular.UseVisualStyleBackColor = false;
@@ -101,11 +102,11 @@
             // 
             // btnlimpiar
             // 
-            this.btnlimpiar.BackColor = System.Drawing.Color.SandyBrown;
-            this.btnlimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlimpiar.Location = new System.Drawing.Point(284, 264);
+            this.btnlimpiar.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btnlimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlimpiar.Location = new System.Drawing.Point(1209, 420);
             this.btnlimpiar.Name = "btnlimpiar";
-            this.btnlimpiar.Size = new System.Drawing.Size(127, 40);
+            this.btnlimpiar.Size = new System.Drawing.Size(256, 67);
             this.btnlimpiar.TabIndex = 4;
             this.btnlimpiar.Text = "Limpiar";
             this.btnlimpiar.UseVisualStyleBackColor = false;
@@ -114,145 +115,137 @@
             // lblb
             // 
             this.lblb.AutoSize = true;
-            this.lblb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblb.Location = new System.Drawing.Point(476, 182);
+            this.lblb.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblb.ForeColor = System.Drawing.Color.Cornsilk;
+            this.lblb.Location = new System.Drawing.Point(401, 305);
             this.lblb.Name = "lblb";
-            this.lblb.Size = new System.Drawing.Size(205, 18);
+            this.lblb.Size = new System.Drawing.Size(306, 26);
             this.lblb.TabIndex = 5;
             this.lblb.Text = "Asignar valor al coeficiente \"b\"";
-            this.lblb.Click += new System.EventHandler(this.lblb_Click);
             // 
             // lblr
             // 
             this.lblr.AutoSize = true;
-            this.lblr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblr.Location = new System.Drawing.Point(476, 261);
+            this.lblr.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblr.ForeColor = System.Drawing.Color.Cornsilk;
+            this.lblr.Location = new System.Drawing.Point(402, 426);
             this.lblr.Name = "lblr";
-            this.lblr.Size = new System.Drawing.Size(216, 18);
+            this.lblr.Size = new System.Drawing.Size(322, 26);
             this.lblr.TabIndex = 6;
             this.lblr.Text = "Asignar valor al resultado de  \"r\"";
-            this.lblr.Click += new System.EventHandler(this.lblr_Click);
             // 
             // lblc
             // 
             this.lblc.AutoSize = true;
-            this.lblc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblc.Location = new System.Drawing.Point(724, 96);
+            this.lblc.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblc.ForeColor = System.Drawing.Color.Cornsilk;
+            this.lblc.Location = new System.Drawing.Point(803, 200);
             this.lblc.Name = "lblc";
-            this.lblc.Size = new System.Drawing.Size(205, 18);
+            this.lblc.Size = new System.Drawing.Size(305, 26);
             this.lblc.TabIndex = 7;
             this.lblc.Text = "Asignar valor al coeficiente \"c\"";
-            this.lblc.Click += new System.EventHandler(this.lblc_Click);
             // 
             // lbld
             // 
             this.lbld.AutoSize = true;
-            this.lbld.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbld.Location = new System.Drawing.Point(724, 182);
+            this.lbld.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbld.ForeColor = System.Drawing.Color.Cornsilk;
+            this.lbld.Location = new System.Drawing.Point(803, 305);
             this.lbld.Name = "lbld";
-            this.lbld.Size = new System.Drawing.Size(205, 18);
+            this.lbld.Size = new System.Drawing.Size(306, 26);
             this.lbld.TabIndex = 8;
             this.lbld.Text = "Asignar valor al coeficiente \"d\"";
-            this.lbld.Click += new System.EventHandler(this.lbld_Click);
             // 
             // lbls
             // 
             this.lbls.AutoSize = true;
-            this.lbls.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbls.Location = new System.Drawing.Point(724, 261);
+            this.lbls.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbls.ForeColor = System.Drawing.Color.Cornsilk;
+            this.lbls.Location = new System.Drawing.Point(800, 426);
             this.lbls.Name = "lbls";
-            this.lbls.Size = new System.Drawing.Size(215, 18);
+            this.lbls.Size = new System.Drawing.Size(320, 26);
             this.lbls.TabIndex = 9;
             this.lbls.Text = "Asignar valor al resultado de \"s\"";
-            this.lbls.Click += new System.EventHandler(this.lbls_Click);
             // 
             // txta
             // 
-            this.txta.Location = new System.Drawing.Point(479, 117);
+            this.txta.Location = new System.Drawing.Point(406, 236);
             this.txta.Name = "txta";
-            this.txta.Size = new System.Drawing.Size(220, 22);
+            this.txta.Size = new System.Drawing.Size(295, 22);
             this.txta.TabIndex = 10;
-            this.txta.TextChanged += new System.EventHandler(this.txta_TextChanged);
             // 
             // txtb
             // 
-            this.txtb.Location = new System.Drawing.Point(479, 205);
+            this.txtb.Location = new System.Drawing.Point(406, 350);
             this.txtb.Name = "txtb";
-            this.txtb.Size = new System.Drawing.Size(220, 22);
+            this.txtb.Size = new System.Drawing.Size(293, 22);
             this.txtb.TabIndex = 11;
-            this.txtb.TextChanged += new System.EventHandler(this.txtb_TextChanged);
             // 
             // txtr
             // 
-            this.txtr.Location = new System.Drawing.Point(479, 285);
+            this.txtr.Location = new System.Drawing.Point(405, 465);
             this.txtr.Name = "txtr";
-            this.txtr.Size = new System.Drawing.Size(220, 22);
+            this.txtr.Size = new System.Drawing.Size(295, 22);
             this.txtr.TabIndex = 12;
-            this.txtr.TextChanged += new System.EventHandler(this.txtr_TextChanged);
             // 
             // txtc
             // 
-            this.txtc.Location = new System.Drawing.Point(727, 117);
+            this.txtc.Location = new System.Drawing.Point(808, 236);
             this.txtc.Name = "txtc";
-            this.txtc.Size = new System.Drawing.Size(220, 22);
+            this.txtc.Size = new System.Drawing.Size(300, 22);
             this.txtc.TabIndex = 13;
-            this.txtc.TextChanged += new System.EventHandler(this.txtc_TextChanged);
             // 
             // txtd
             // 
-            this.txtd.Location = new System.Drawing.Point(727, 205);
+            this.txtd.Location = new System.Drawing.Point(806, 350);
             this.txtd.Name = "txtd";
-            this.txtd.Size = new System.Drawing.Size(220, 22);
+            this.txtd.Size = new System.Drawing.Size(302, 22);
             this.txtd.TabIndex = 14;
-            this.txtd.TextChanged += new System.EventHandler(this.txtd_TextChanged);
             // 
             // txts
             // 
-            this.txts.Location = new System.Drawing.Point(727, 285);
+            this.txts.Location = new System.Drawing.Point(807, 465);
             this.txts.Name = "txts";
-            this.txts.Size = new System.Drawing.Size(220, 22);
+            this.txts.Size = new System.Drawing.Size(301, 22);
             this.txts.TabIndex = 15;
-            this.txts.TextChanged += new System.EventHandler(this.txts_TextChanged);
             // 
             // lblx
             // 
             this.lblx.AutoSize = true;
-            this.lblx.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblx.Location = new System.Drawing.Point(684, 338);
+            this.lblx.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblx.ForeColor = System.Drawing.Color.Cornsilk;
+            this.lblx.Location = new System.Drawing.Point(687, 515);
             this.lblx.Name = "lblx";
-            this.lblx.Size = new System.Drawing.Size(108, 18);
+            this.lblx.Size = new System.Drawing.Size(161, 26);
             this.lblx.TabIndex = 16;
             this.lblx.Text = "El valor de x es";
-            this.lblx.Click += new System.EventHandler(this.lblx_Click);
             // 
             // lbly
             // 
             this.lbly.AutoSize = true;
-            this.lbly.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbly.Location = new System.Drawing.Point(684, 405);
+            this.lbly.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbly.ForeColor = System.Drawing.Color.Cornsilk;
+            this.lbly.Location = new System.Drawing.Point(689, 610);
             this.lbly.Name = "lbly";
-            this.lbly.Size = new System.Drawing.Size(108, 18);
+            this.lbly.Size = new System.Drawing.Size(161, 26);
             this.lbly.TabIndex = 17;
             this.lbly.Text = "El valor de y es";
-            this.lbly.Click += new System.EventHandler(this.lbly_Click);
             // 
             // txtx
             // 
-            this.txtx.Location = new System.Drawing.Point(684, 359);
+            this.txtx.Location = new System.Drawing.Point(692, 554);
             this.txtx.Name = "txtx";
             this.txtx.ReadOnly = true;
-            this.txtx.Size = new System.Drawing.Size(220, 22);
+            this.txtx.Size = new System.Drawing.Size(280, 22);
             this.txtx.TabIndex = 18;
-            this.txtx.TextChanged += new System.EventHandler(this.txtx_TextChanged);
             // 
             // txty
             // 
-            this.txty.Location = new System.Drawing.Point(684, 426);
+            this.txty.Location = new System.Drawing.Point(692, 652);
             this.txty.Name = "txty";
             this.txty.ReadOnly = true;
-            this.txty.Size = new System.Drawing.Size(220, 22);
+            this.txty.Size = new System.Drawing.Size(280, 22);
             this.txty.TabIndex = 19;
-            this.txty.TextChanged += new System.EventHandler(this.txty_TextChanged);
             // 
             // BtnVolver
             // 
@@ -267,12 +260,37 @@
             this.BtnVolver.UseVisualStyleBackColor = true;
             this.BtnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
             // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Cornsilk;
+            this.label2.Location = new System.Drawing.Point(474, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(634, 119);
+            this.label2.TabIndex = 31;
+            this.label2.Text = "Determinantes";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Cornsilk;
+            this.label4.Location = new System.Drawing.Point(33, 689);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(194, 26);
+            this.label4.TabIndex = 33;
+            this.label4.Text = "Jonathan Marchelli";
+            // 
             // Determinantes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.ClientSize = new System.Drawing.Size(1163, 576);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(1547, 733);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.BtnVolver);
             this.Controls.Add(this.txty);
             this.Controls.Add(this.txtx);
@@ -298,7 +316,6 @@
             this.Name = "Determinantes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Determinantes";
-            this.Load += new System.EventHandler(this.Determinantes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -328,5 +345,7 @@
         private System.Windows.Forms.TextBox txtx;
         private System.Windows.Forms.TextBox txty;
         private System.Windows.Forms.Button BtnVolver;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
     }
 }

@@ -19,31 +19,6 @@ namespace Proyecto_final
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cajero_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (!int.TryParse(txta.Text, out int monto))
@@ -84,41 +59,6 @@ namespace Proyecto_final
             txtf.Text = cantidadBilletes.ContainsKey(1) ? cantidadBilletes[1].ToString() : "0";
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox6_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click_1(object sender, EventArgs e)
         {
             txta.Clear();
@@ -135,6 +75,14 @@ namespace Proyecto_final
         private void label4_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            Principal frm_Prin = new Principal();
+            this.Hide();
+            frm_Prin.ShowDialog();
+            this.Close();
         }
     }
 }
