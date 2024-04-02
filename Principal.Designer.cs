@@ -68,11 +68,11 @@
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button9.BackColor = System.Drawing.Color.CornflowerBlue;
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.button9.ForeColor = System.Drawing.Color.White;
             this.button9.Location = new System.Drawing.Point(121, 609);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(256, 67);
@@ -83,11 +83,11 @@
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button8.BackColor = System.Drawing.Color.CornflowerBlue;
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.button8.ForeColor = System.Drawing.Color.White;
             this.button8.Location = new System.Drawing.Point(121, 513);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(256, 67);
@@ -112,11 +112,11 @@
             // 
             // BtnCreditos
             // 
-            this.BtnCreditos.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.BtnCreditos.BackColor = System.Drawing.Color.CornflowerBlue;
             this.BtnCreditos.FlatAppearance.BorderSize = 0;
             this.BtnCreditos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCreditos.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCreditos.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.BtnCreditos.ForeColor = System.Drawing.Color.White;
             this.BtnCreditos.Location = new System.Drawing.Point(1213, 528);
             this.BtnCreditos.Name = "BtnCreditos";
             this.BtnCreditos.Size = new System.Drawing.Size(256, 67);
@@ -127,12 +127,12 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button5.BackColor = System.Drawing.Color.CornflowerBlue;
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(121, 415);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(256, 61);
@@ -142,11 +142,11 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button4.BackColor = System.Drawing.Color.CornflowerBlue;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(121, 316);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(256, 67);
@@ -156,11 +156,11 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button3.BackColor = System.Drawing.Color.CornflowerBlue;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(121, 221);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(256, 67);
@@ -171,11 +171,11 @@
             // 
             // BtnDeterminante
             // 
-            this.BtnDeterminante.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.BtnDeterminante.BackColor = System.Drawing.Color.CornflowerBlue;
             this.BtnDeterminante.FlatAppearance.BorderSize = 0;
             this.BtnDeterminante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnDeterminante.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDeterminante.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.BtnDeterminante.ForeColor = System.Drawing.Color.White;
             this.BtnDeterminante.Location = new System.Drawing.Point(121, 119);
             this.BtnDeterminante.Name = "BtnDeterminante";
             this.BtnDeterminante.Size = new System.Drawing.Size(256, 67);
@@ -186,11 +186,11 @@
             // 
             // BtnAngulos
             // 
-            this.BtnAngulos.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.BtnAngulos.BackColor = System.Drawing.Color.CornflowerBlue;
             this.BtnAngulos.FlatAppearance.BorderSize = 0;
             this.BtnAngulos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnAngulos.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAngulos.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.BtnAngulos.ForeColor = System.Drawing.Color.White;
             this.BtnAngulos.Location = new System.Drawing.Point(121, 23);
             this.BtnAngulos.Name = "BtnAngulos";
             this.BtnAngulos.Size = new System.Drawing.Size(256, 67);
@@ -208,7 +208,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(635, 121);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Estructurada";
+            this.label2.Text = "Matemático V9";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
@@ -221,7 +221,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(634, 119);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Programación";
+            this.label1.Text = "Proyecto";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 

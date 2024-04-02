@@ -75,66 +75,71 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1452, 799);
+            this.panel1.Size = new System.Drawing.Size(1384, 759);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(822, 717);
+            this.label7.Location = new System.Drawing.Point(718, 626);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(313, 83);
+            this.label7.Size = new System.Drawing.Size(214, 42);
             this.label7.TabIndex = 13;
-            this.label7.Text = "Javier Enrique Monge Argueta";
+            this.label7.Text = "Javier Monge";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(821, 478);
+            this.pictureBox6.Location = new System.Drawing.Point(723, 387);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(192, 224);
+            this.pictureBox6.Size = new System.Drawing.Size(173, 210);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 12;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(529, 717);
+            this.label6.Location = new System.Drawing.Point(425, 626);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(257, 66);
+            this.label6.Size = new System.Drawing.Size(233, 42);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Gabriel Guillermo Aparicio García";
+            this.label6.Text = "Gabriel Aparicio";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(528, 478);
+            this.pictureBox5.Location = new System.Drawing.Point(424, 387);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(192, 224);
+            this.pictureBox5.Size = new System.Drawing.Size(166, 210);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 10;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // label5
             // 
-            this.label5.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(1111, 391);
+            this.label5.Location = new System.Drawing.Point(972, 336);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(257, 66);
+            this.label5.Size = new System.Drawing.Size(257, 40);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Anderson Isaac Aguilar Ramos";
+            this.label5.Text = "Anderson Aguilar";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(1110, 152);
+            this.pictureBox4.Location = new System.Drawing.Point(994, 152);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(192, 224);
+            this.pictureBox4.Size = new System.Drawing.Size(176, 168);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
@@ -142,40 +147,40 @@
             // 
             // label4
             // 
-            this.label4.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(756, 391);
+            this.label4.Location = new System.Drawing.Point(685, 336);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(257, 66);
+            this.label4.Size = new System.Drawing.Size(211, 40);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Billy Seth Cañas Palacios";
+            this.label4.Text = "Billy Cañas";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(755, 152);
+            this.pictureBox3.Location = new System.Drawing.Point(700, 152);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(192, 224);
+            this.pictureBox3.Size = new System.Drawing.Size(166, 168);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 6;
             this.pictureBox3.TabStop = false;
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(425, 391);
+            this.label3.Location = new System.Drawing.Point(333, 336);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(257, 66);
+            this.label3.Size = new System.Drawing.Size(325, 40);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Fernando Adrián Rodríguez Gamero";
+            this.label3.Text = "Fernando Rodríguez";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(424, 152);
+            this.pictureBox2.Location = new System.Drawing.Point(387, 152);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(192, 224);
+            this.pictureBox2.Size = new System.Drawing.Size(151, 168);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -183,20 +188,21 @@
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(98, 391);
+            this.label2.Location = new System.Drawing.Point(57, 336);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(325, 163);
+            this.label2.Size = new System.Drawing.Size(325, 40);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Jonathan Josué Marchelli Hernández";
+            this.label2.Text = "Jonathan Marchelli";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(97, 152);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(192, 224);
+            this.pictureBox1.Size = new System.Drawing.Size(133, 168);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -232,7 +238,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1452, 799);
+            this.ClientSize = new System.Drawing.Size(1384, 759);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
