@@ -79,5 +79,29 @@ namespace Proyecto_final
             frm_cajero.ShowDialog();
             this.Close();
         }
+
+        private void BtnAngulos_Click(object sender, EventArgs e)
+        {
+            Angulos frm_angulo=new Angulos();
+            this.Hide();
+            frm_angulo.ShowDialog();
+            this.Close();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Promedio frm_promedio = new Promedio();
+            this.Hide();
+            frm_promedio.ShowDialog();
+            this.Close();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Ordenamiento frm_ordenamiento = new Ordenamiento();
+            this.Hide();
+            frm_ordenamiento.ShowDialog();
+            this.Close();
+        }
     }
 }

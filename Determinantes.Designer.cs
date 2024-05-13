@@ -91,6 +91,7 @@
             // btncalcular
             // 
             this.btncalcular.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btncalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncalcular.Location = new System.Drawing.Point(1209, 256);
             this.btncalcular.Name = "btncalcular";
@@ -103,6 +104,7 @@
             // btnlimpiar
             // 
             this.btnlimpiar.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btnlimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlimpiar.Location = new System.Drawing.Point(1209, 420);
             this.btnlimpiar.Name = "btnlimpiar";
@@ -313,6 +315,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Determinantes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Determinantes";

@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Angulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Angulos.Designer.cs">
+      <DependentUpon>Angulos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cajero.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,12 @@
     <Compile Include="Determinantes.Designer.cs">
       <DependentUpon>Determinantes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ordenamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ordenamiento.Designer.cs">
+      <DependentUpon>Ordenamiento.cs</DependentUpon>
+    </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,18 +84,33 @@
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Promedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Promedio.Designer.cs">
+      <DependentUpon>Promedio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Angulos.resx">
+      <DependentUpon>Angulos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cajero.resx">
       <DependentUpon>Cajero.cs</DependentUpon>
-      </EmbeddedResource>
+    </EmbeddedResource>
     <EmbeddedResource Include="Creditos.resx">
       <DependentUpon>Creditos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Determinantes.resx">
       <DependentUpon>Determinantes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ordenamiento.resx">
+      <DependentUpon>Ordenamiento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Promedio.resx">
+      <DependentUpon>Promedio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

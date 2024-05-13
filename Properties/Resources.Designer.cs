@@ -63,9 +63,39 @@ namespace Proyecto_final.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap busy_project_manager_overwhelmed_by_work {
+            get {
+                object obj = ResourceManager.GetObject("busy-project-manager-overwhelmed-by-work", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap busy_project_manager_overwhelmed_by_work1 {
+            get {
+                object obj = ResourceManager.GetObject("busy-project-manager-overwhelmed-by-work1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fondo {
             get {
                 object obj = ResourceManager.GetObject("fondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap orden_numerico_ascendente {
+            get {
+                object obj = ResourceManager.GetObject("orden-numerico-ascendente", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
