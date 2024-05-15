@@ -47,7 +47,10 @@ namespace Proyecto_final
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            Plano_Cartesiano frm_plano = new Plano_Cartesiano();
+            this.Hide();
+            frm_plano.ShowDialog();
+            this.Close();
         }
 
         private void BtnCreditos_Click(object sender, EventArgs e)
