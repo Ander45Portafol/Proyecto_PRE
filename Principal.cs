@@ -106,5 +106,13 @@ namespace Proyecto_final
             frm_ordenamiento.ShowDialog();
             this.Close();
         }
+
+        private void btnHerencia_Click(object sender, EventArgs e)
+        {
+            Herencia frm_herencia=new Herencia();
+            this.Hide();
+            frm_herencia.ShowDialog();
+            this.Close();
+        }
     }
 }
