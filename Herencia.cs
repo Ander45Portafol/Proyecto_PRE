@@ -86,7 +86,7 @@ namespace Proyecto_final
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnLimpiar_Click(object sender, EventArgs e)
         {
             txtAbogado.Clear();
             txtHerencia.Clear();
