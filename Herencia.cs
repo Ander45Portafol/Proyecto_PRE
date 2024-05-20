@@ -86,6 +86,15 @@ namespace Proyecto_final
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtAbogado.Clear();
+            txtHerencia.Clear();
+            txtJuan.Clear();
+            txtLuis.Clear();
+            txtRosa.Clear();
+        }
+
         private void label7_Click(object sender, EventArgs e)
         {
 
