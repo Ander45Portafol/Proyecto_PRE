@@ -68,7 +68,7 @@
             // 
             // btnPlano
             // 
-            this.btnPlano.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnPlano.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnPlano.FlatAppearance.BorderSize = 0;
             this.btnPlano.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlano.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -83,7 +83,7 @@
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button8.BackColor = System.Drawing.Color.HotPink;
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -113,7 +113,7 @@
             // 
             // BtnCreditos
             // 
-            this.BtnCreditos.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.BtnCreditos.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.BtnCreditos.FlatAppearance.BorderSize = 0;
             this.BtnCreditos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCreditos.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -128,7 +128,7 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button5.BackColor = System.Drawing.SystemColors.GrayText;
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -144,7 +144,7 @@
             // 
             // btnHerencia
             // 
-            this.btnHerencia.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnHerencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnHerencia.FlatAppearance.BorderSize = 0;
             this.btnHerencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHerencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -159,7 +159,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button3.BackColor = System.Drawing.Color.Purple;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -174,7 +174,7 @@
             // 
             // BtnDeterminante
             // 
-            this.BtnDeterminante.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.BtnDeterminante.BackColor = System.Drawing.Color.SlateBlue;
             this.BtnDeterminante.FlatAppearance.BorderSize = 0;
             this.BtnDeterminante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnDeterminante.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

@@ -77,7 +77,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(519, 168);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(205, 36);
+            this.label2.Size = new System.Drawing.Size(164, 29);
             this.label2.TabIndex = 2;
             this.label2.Text = "Cateto menor:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -104,7 +104,7 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(519, 223);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(201, 36);
+            this.label3.Size = new System.Drawing.Size(161, 29);
             this.label3.TabIndex = 4;
             this.label3.Text = "Cateto mayor:";
             // 
@@ -112,7 +112,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.LightCoral;
+            this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(158, 386);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(175, 37);
@@ -134,7 +134,7 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(70, 456);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(256, 36);
+            this.label5.Size = new System.Drawing.Size(205, 29);
             this.label5.TabIndex = 7;
             this.label5.Text = "El ángulo a es de:";
             // 
@@ -153,7 +153,7 @@
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(70, 514);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(258, 36);
+            this.label6.Size = new System.Drawing.Size(206, 29);
             this.label6.TabIndex = 9;
             this.label6.Text = "El ángulo b es de:";
             // 
@@ -172,7 +172,7 @@
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(70, 568);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(254, 36);
+            this.label7.Size = new System.Drawing.Size(203, 29);
             this.label7.TabIndex = 11;
             this.label7.Text = "hipotenusa es de:";
             // 
@@ -231,7 +231,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.BackColor = System.Drawing.Color.Olive;
             this.ClientSize = new System.Drawing.Size(1272, 666);
             this.Controls.Add(this.BtnRegresar);
             this.Controls.Add(this.BtnLimpiar);

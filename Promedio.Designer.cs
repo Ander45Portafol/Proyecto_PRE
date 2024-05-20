@@ -121,7 +121,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(593, 542);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(256, 67);
             this.button1.TabIndex = 40;
@@ -135,7 +135,7 @@
             this.btnPromedio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPromedio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPromedio.Location = new System.Drawing.Point(212, 542);
-            this.btnPromedio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPromedio.Margin = new System.Windows.Forms.Padding(4);
             this.btnPromedio.Name = "btnPromedio";
             this.btnPromedio.Size = new System.Drawing.Size(256, 67);
             this.btnPromedio.TabIndex = 41;
@@ -202,7 +202,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1547, 733);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtPromedio);
