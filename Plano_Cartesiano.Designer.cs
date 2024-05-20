@@ -47,7 +47,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panel1.BackColor = System.Drawing.Color.Purple;
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.btnRegresar);
             this.panel1.Controls.Add(this.pictureBox1);
